@@ -364,7 +364,7 @@
       let imgUrl = arte;
       const driveMatch = arte.match(/\/d\/([a-zA-Z0-9_-]+)/);
       if (driveMatch) {
-        imgUrl = 'https://drive.google.com/uc?export=view&id=' + driveMatch[1];
+        imgUrl = 'https://lh3.googleusercontent.com/d/' + driveMatch[1];
       }
 
       app.innerHTML = `
